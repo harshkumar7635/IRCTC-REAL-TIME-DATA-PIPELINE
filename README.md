@@ -58,6 +58,31 @@ SQL Analysis
       ↓
 Dashboard / Analytics
 
+## 🚀 How to Run
+
+### 1. Activate Virtual Environment
+
+```bash
+venv\Scripts\activate
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+
+### 3. Run the Data Ingestion Pipeline
+
+```bash
+python ingest.py
+
+### 4. Run the Dashboard Query
+
+```bash
+python pipeline.py
+
+
+
+
 
 
 

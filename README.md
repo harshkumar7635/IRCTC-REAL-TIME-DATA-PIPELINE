@@ -91,6 +91,19 @@ python pipeline.py
 
 > Note: Due to BigQuery Sandbox limitations, the pipeline uses batch/micro-batch ingestion instead of true real-time streaming.
 
+## 📂 Project Structure
+
+```text
+IRCTC-REAL-TIME-DATA-PIPELINE/
+│
+├── ingest.py              # CSV → BigQuery data ingestion
+├── pipeline.py            # BigQuery dashboard query
+├── train_data.csv         # Sample railway train data
+├── requirements.txt       # Python dependencies
+├── .env.example           # Environment variable template
+├── .gitignore             # Ignored files and folders
+└── README.md              # Project documentation
+
 
 
 

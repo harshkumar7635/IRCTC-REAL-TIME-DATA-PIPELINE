@@ -1,6 +1,7 @@
 from google.cloud import bigquery
 import pandas as pd
 import logging
+from datetime import datetime, timezone
 
 PROJECT_ID = "central-rush-450208-g6"
 DATASET_ID = "irctc_realtime"
@@ -22,6 +23,8 @@ try:
 
     df = pd.read_csv(CSV_FILE)
 
+    df["last_updated"] = datetime.now(timezone.utc)
+
     logging.info(f"Rows found: {len(df)}")
 
     required_columns = [
@@ -37,7 +40,8 @@ try:
     ]
 
     missing_columns = [
-        column for column in required_columns
+        column
+        for column in required_columns
         if column not in df.columns
     ]
 

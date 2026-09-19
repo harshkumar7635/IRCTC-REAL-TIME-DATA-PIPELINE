@@ -141,6 +141,24 @@ GitHub: `https://github.com/harshkumar7635`
 - **Version Control:** Git & GitHub
 - **Development Environment:** VS Code
 
+## 📊 Data Fields
+
+The train dataset contains the following fields:
+
+| Field | Description |
+|---|---|
+| `train_number` | Unique train number |
+| `train_name` | Name of the train |
+| `source_station` | Starting station |
+| `destination_station` | Destination station |
+| `departure_time` | Scheduled departure time |
+| `arrival_time` | Scheduled arrival time |
+| `status` | Current train status |
+| `delay_minutes` | Delay duration in minutes |
+| `platform_number` | Assigned platform number |
+| `last_updated` | Timestamp of the latest ingestion |
+
+
 
 
 

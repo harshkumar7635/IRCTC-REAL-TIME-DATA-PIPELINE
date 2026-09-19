@@ -42,3 +42,22 @@ IRCTC-REAL-TIME-DATA-PIPELINE/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+
+## 🏗️ Project Architecture
+
+```text
+train_data.csv
+      ↓
+Python Ingestion (ingest.py)
+      ↓
+Data Validation & Logging
+      ↓
+Google BigQuery
+      ↓
+SQL Analysis
+      ↓
+Dashboard / Analytics
+
+
+
+

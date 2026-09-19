@@ -80,7 +80,16 @@ python ingest.py
 ```bash
 python pipeline.py
 
+## 📌 Project Highlights
 
+- Built a Python-based batch data ingestion pipeline for railway train data.
+- Implemented data validation and logging using Pandas and Python.
+- Stored and analyzed train data using Google BigQuery Sandbox.
+- Created SQL views for train status, delays, route analysis and station performance.
+- Developed a Python dashboard query to retrieve the latest train analytics.
+- Used Git and GitHub for version control and project management.
+
+> Note: Due to BigQuery Sandbox limitations, the pipeline uses batch/micro-batch ingestion instead of true real-time streaming.
 
 
 

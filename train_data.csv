@@ -1,0 +1,4 @@
+train_number,train_name,source_station,destination_station,departure_time,arrival_time,status,delay_minutes,platform_number
+12951,Mumbai Rajdhani,Mumbai,Delhi,16:00,08:35,On Time,0,5
+12301,Howrah Rajdhani,Delhi,Kolkata,17:00,10:00,Delayed,15,3
+12621,Tamil Nadu Express,Chennai,Delhi,22:00,07:00,On Time,0,2

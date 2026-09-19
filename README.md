@@ -104,7 +104,31 @@ IRCTC-REAL-TIME-DATA-PIPELINE/
 ├── .gitignore             # Ignored files and folders
 └── README.md              # Project documentation
 
+## ☁️ Google Cloud & BigQuery
 
+- **Cloud Platform:** Google Cloud Platform (GCP)
+- **Data Warehouse:** Google BigQuery
+- **Dataset:** `irctc_realtime`
+- **Table:** `train_data`
+- **Processing:** SQL-based analytics and BigQuery views
+- **Ingestion:** Python + Pandas batch/micro-batch pipeline
+
+> The project uses BigQuery Sandbox to maintain a no-billing development setup. Therefore, the pipeline uses batch/micro-batch ingestion rather than true streaming.
+
+## 🔐 Security
+
+- Sensitive configuration is stored in `.env`.
+- `.env` is excluded from Git using `.gitignore`.
+- `.env.example` is provided as a safe configuration template.
+- No credentials or private keys are stored in the repository.
+
+## 👨‍💻 Author
+
+**Harsh Kumar**  
+B.Tech — Metallurgical and Materials Engineering  
+NIT Tiruchirappalli
+
+GitHub: `https://github.com/harshkumar7635`
 
 
 

@@ -130,5 +130,18 @@ NIT Tiruchirappalli
 
 GitHub: `https://github.com/harshkumar7635`
 
+## 🛠️ Technology Stack
+
+- **Programming Language:** Python
+- **Data Processing:** Pandas
+- **Cloud Platform:** Google Cloud Platform (GCP)
+- **Data Warehouse:** Google BigQuery
+- **Query Language:** SQL
+- **Authentication:** Google Cloud Application Default Credentials
+- **Version Control:** Git & GitHub
+- **Development Environment:** VS Code
+
+
+
 
 
